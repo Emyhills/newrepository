@@ -1,0 +1,100 @@
+@charset "utf-8";
+.wrapper {
+	background-color: #33C;
+	float: none;
+	height: 700px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.navbar {
+	background-color: #F00;
+	float: left;
+	height: 100px;
+	width: 800px;
+	background:linear-gradient(grey, #)
+}
+.cache{
+	hight:300;
+	/* this is a comment*/
+	}
+.button {
+	float: left;
+	height: 100px;
+	width: 19.87%;
+	border-right-width: thin;
+	border-right-style: solid;
+	border-right-color: #F93;
+	text-align: center;
+}
+.ab {
+	height: 600px;
+	width: 800px;
+	background-image: url(images/Untitled-1.png);
+	float: left;
+}
+.ab {
+	background-image: url(images/Untitled-1.png);
+	height: 177px;
+	width: 1000px;
+}
+
+
+.button a {
+	font-size: 18px;
+	font-weight: 400;
+	color: #306;
+	text-decoration: none;
+	text-align: center;
+	float: left;
+	height: 80%;
+	width: 100px;
+	padding-top: 20%;
+	
+}
+.radius{
+	width:200px;
+	height:300px;
+	float:left;
+	background-color:red;
+	border-radius:100px;
+	}
+	.abc{
+	width:200px;
+	height:300px;
+	background-color:yellow;
+	float:left;	
+		}
+		.abc:hover{
+			transform:translate(40px,40px);
+		}
+		.abcd{
+	width:200px;
+	height:300px;
+	background-color:red;
+	float:left;
+	transition-property:all;
+	transition-duration:3s;	
+		}
+		.abcd:hover{
+			transform:translate(40px,40px);
+			transform:rotate(45deg);/*rotates when cursor gets acoss it*/
+			height:400px;
+			width:400px;
+		}
+		.ani-color{
+			width:200px;
+			height:200px;
+			float:left;
+			background-color:yellow;
+			animation-name:animate-color;
+			animation-duration:4s;
+			animation-timing-function:ease-in-out;
+			animation-iteration-count:infinite;
+			
+		}
+		@keyframes animate-color{
+			0%{background-color:yellow; font-size:36px;}
+			50%{background-color:red; font-size:18px;}
+			100%{background-color:yellow; font-size:36px;}
+			}
